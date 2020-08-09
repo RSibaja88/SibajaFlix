@@ -1,0 +1,68 @@
+.row {
+    margin-left: 20px;
+}
+
+.rowPoster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    transition: 425ms;
+    -webkit-transition: 425ms;
+    -moz-transition: 425ms;
+    -ms-transition: 425ms;
+    -o-transition: 425ms;
+    margin-right: 13.5px;
+}
+
+.rowPoster:hover {
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
+
+.rowPosterLarge {
+    width: 100%;
+    object-fit: contain;
+    max-height: 305px;
+    transition: 425ms;
+    -webkit-transition: 425ms;
+    -moz-transition: 425ms;
+    -ms-transition: 425ms;
+    -o-transition: 425ms;
+    margin-right: 15px;
+    padding-bottom: 5.95px;
+}
+
+.rowPosterLarge:hover {
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+}
+
+.rowPosters {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 15px;
+}
+
+.rowPosters::-webkit-scrollbar {
+    width: 1px;
+    height: 7px;
+    background-color: rgba(41, 0, 0, 0.829);
+}
+
+.rowPosters::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 2px rgba(255, 255, 255, 0.192) solid;
+}
