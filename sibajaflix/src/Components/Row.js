@@ -7,11 +7,12 @@ function Row({ title, fetchUrl }) {
     useEffect(() => {
         async function fetchData(){
             const request = await axios.get(fetchUrl);
-            console.log(request);
+            setMovies(request.data.results);
+            console.log(request.data.results);
             return request;
         }
         fetchData();
-    }, []);
+    }, [fetchUrl]);
     return (
         <div>
             <h2>{title}</h2>
