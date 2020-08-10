@@ -2,14 +2,6 @@
   margin: 0;
 }
 
-.bigRow {
-  width: 100%;
-  object-fit: contain;
-  max-height: 270px;
-  transition: 425ms;
-  -webkit-transition: 425ms;
-  -moz-transition: 425ms;
-  -ms-transition: 425ms;
-  -o-transition: 425ms;
-  margin-right: 13.5px;
+.app {
+  background-color: #111;
 }
