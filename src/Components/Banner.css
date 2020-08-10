@@ -62,7 +62,7 @@ h1 {
 }
 
 .fadeBottom {
-    height: 14.98rem;
+    height: 15rem;
     background: rgb(130, 130, 130);
     background: -moz-linear-gradient(180deg, rgba(130, 130, 130, 0) 0%, rgba(17, 17, 17, 1) 75%);
     background: -webkit-linear-gradient(180deg, rgba(130, 130, 130, 0) 0%, rgba(17, 17, 17, 1) 75%);
